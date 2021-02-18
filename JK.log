@@ -1,0 +1,24 @@
+2021-02-18 20:23:18,752 : Welcome in APUtool - 0.0.1
+2021-02-18 20:23:18,753 : 1. FootlockerEU order checker
+2021-02-18 20:23:18,754 : Your choice: : 
+2021-02-18 20:23:19,943 : All task(s) started!
+2021-02-18 20:23:19,943 : 1. FootlockerEU order checker
+2021-02-18 20:23:19,944 : Your choice: : 
+2021-02-18 20:23:32,322 : Invalid choice!
+2021-02-18 20:23:32,322 : 1. FootlockerEU order checker
+2021-02-18 20:23:32,323 : Your choice: : 
+2021-02-18 20:23:33,840 : All task(s) started!
+2021-02-18 20:23:33,841 : 1. FootlockerEU order checker
+2021-02-18 20:23:33,841 : Your choice: : 
+2021-02-18 20:24:51,893 : Invalid choice!
+2021-02-18 20:24:51,894 : 1. FootlockerEU order checker
+2021-02-18 20:24:51,895 : Your choice: : 
+2021-02-18 20:24:53,177 : [Task 0] Starting...
+2021-02-18 20:24:53,185 : All task(s) started!
+2021-02-18 20:24:53,238 : [Task 0] [Footlocker EU Checker] Started!
+2021-02-18 20:24:54,103 : [Task 0] [FootLocker EU Checker] Checking order..
+2021-02-18 20:24:54,104 : [Task 0] [FootLocker EU Checker] Error getting order: [200]
+2021-02-18 20:24:54,105 : [Task 0] [FootLocker EU Checker] Sending Webhook..
+2021-02-18 20:24:54,106 : [Task 0] [FootLocker EU Checker] Webhook error: Invalid URL '': No schema supplied. Perhaps you meant http://?
+2021-02-18 20:24:54,139 : 1. FootlockerEU order checker
+2021-02-18 20:24:54,153 : Your choice: : 
