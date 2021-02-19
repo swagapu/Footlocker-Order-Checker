@@ -1,7 +1,7 @@
 # Footlocker-Order-Checker
 An easy script to scrape all infos from an order by APU#0001
 
-what is supported ? 
+What is supported ? 
 
 - Image Scraping 
 - Product Scraping 
@@ -25,6 +25,11 @@ How to run it?
 
 - Open main.py file and run it
 
+
+**ERROR**
+
+- Error scraping [403] = Banned from footlocker, use proxies
+- Error scraping [200] = Order not found, double check your order number
 
 
 
