@@ -3,15 +3,15 @@ An easy script to scrape all infos from an order by APU#0001
 
 what is supported ? 
 
-Image Scraping - ✅
-Product Scraping - ✅
-Order Date Scraping - ✅
-Order Status - ✅
-Carrier Scraping - ✅
-Tracking Scraping - ✅
-Proxy Support - ✅
-Response status code stuff - ✅
-Shipment status Scraping ✅
+- Image Scraping 
+- Product Scraping 
+- Order Date Scraping 
+- Order Status
+- Carrier Scraping 
+- Tracking Scraping
+- Proxy Support 
+- Response status code stuff 
+- Shipment status Scraping 
 
 
 How to setup it? 
