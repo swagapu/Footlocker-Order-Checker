@@ -1,11 +1,24 @@
 # Footlocker-Order-Checker
 An easy script to scrape all infos from an order by APU#0001
 
+what is supported ? 
+
+Image Scraping - ✅
+Product Scraping - ✅
+Order Date Scraping - ✅
+Order Status - ✅
+Carrier Scraping - ✅
+Tracking Scraping - ✅
+Proxy Support - ✅
+Response status code stuff - ✅
+Shipment status Scraping ✅
+
+
 How to setup it? 
 
 - Open config.json file and put your webhook
 - Open tasks.csv file in footlocker folder and put your Order Numbers
-- Open proxy.txt file in footlocker folder if you are planning to check more than 1 order at the same time, put your proxies
+- Open proxy.txt file in footlocker folder if you are planning to check more than 1 order at the same time, put your proxies ( if you wanna run proxyless just leave empty it ) 
 
 
 How to run it?
