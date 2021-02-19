@@ -83,7 +83,7 @@ class mainFlow():
                     activeTasks.append(t)
                     t.start()
 
-                rpc['status'] = 'Generating Porn Hub accounts...'
+                rpc['status'] = 'Checking some orders...'
                 log.info('All task(s) started!')
                 for t in activeTasks:
                     try:
