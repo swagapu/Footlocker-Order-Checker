@@ -35,7 +35,7 @@ How to run it?
 
 **REQUIREMENTS**
 
-- Python 3.7.9 (or more) with requests, cloudscraper library 
+- Python 3.7.9 (or more) with requests, cloudscraper, colorlog library
 
 
 
