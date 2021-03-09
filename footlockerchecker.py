@@ -34,19 +34,21 @@ class Footlockerchecker():
         else:
             self.proxylist = tools.loadProxies(proxies)
 
+
         self.mainheaders = {
             'authority': 'footlocker.narvar.com',
             'cache-control': 'max-age=0',
-            'sec-ch-ua': '"Chromium";v="86", "\\"Not\\\\A;Brand";v="99", "Google Chrome";v="86"',
+            'sec-ch-ua': '^\\^Chromium^\\^;v=^\\^88^\\^, ^\\^Google',
             'sec-ch-ua-mobile': '?0',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'sec-fetch-site': 'none',
             'sec-fetch-mode': 'navigate',
             'sec-fetch-user': '?1',
             'sec-fetch-dest': 'document',
-            'accept-language': 'it,en-US;q=0.9,en;q=0.8',
+            'accept-language': 'it',
+            'cookie': 'JSESSIONID=_yc4MhHOua6bhcHbiA0rMApzuhJ0QFa9FET8X48a',
         }
                 
         
@@ -71,8 +73,6 @@ class Footlockerchecker():
         if self.proxylist == '':
             return None
 
-        else:
-            return random.choice(self.proxylist)
 
 
     def start(self):
@@ -80,7 +80,8 @@ class Footlockerchecker():
             try:
 
                 self.params = (
-                    ('order_number', self.ordernumber),
+                    ('order_number', '31900470306210580280'),
+                    ('tracking_url', f'https://footlocker.narvar.com/footlocker/tracking/uk-mail^%^3Forder_number={self.ordernumber}'),
                 )
 
                 self.pagecreate = f"https://footlocker.narvar.com/tracking/itemvisibility/v1/footlocker/orders/{self.ordernumber}?order_number={self.ordernumber}&tracking_url=https://footlocker.narvar.com/footlocker/tracking/uk-mail?order_number={self.ordernumber}"
